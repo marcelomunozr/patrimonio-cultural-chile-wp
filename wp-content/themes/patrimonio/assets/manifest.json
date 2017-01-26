@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "../bower_components/dist/owl.carousel.min.js",
+        "scripts/custom.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://patrimonio.dev"
+  }
+}
